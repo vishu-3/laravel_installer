@@ -1,7 +1,7 @@
 #! /bin/bash -x
 
 
-echo "Laravel project Installation Vi Shell script" &&
+echo "Laravel project Installation Via Shell script" &&
 
 cd /var/www/html/  &&
 
