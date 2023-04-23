@@ -20,7 +20,7 @@ cd $appname/ &&
 sudo chown -Rv $USER:www-data . && sudo find . -type f -exec chmod 664 {} \; && sudo find . -type d -exec chmod 775 {} \; && sudo chgrp -Rv www-data storage/ bootstrap/cache/ && sudo chmod -Rv ug+rwx storage/ bootstrap/cache/  &&
 
 cd /var/www/html/$appname/ &&
-mv ./public/.htaccess  .  &&
+
 
 mv ./server.php ./index.php
 
